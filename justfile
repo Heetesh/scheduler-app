@@ -4,6 +4,9 @@ shell:
 code:
     nix --experimental-features 'nix-command flakes' develop --command sh -c 'code .'
 
+code-test:
+    nix develop --command sh -c 'code .'
+
 
 
 install:
