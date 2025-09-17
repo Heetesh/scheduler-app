@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Python: FastAPI",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/main.py", // TODO: Set to fastapi endpoint later
+      "args": ["--reload"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/backend"
+    },
+    {
+      "name": "Debug Vue (Chrome)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/frontend", // TODO: Set to vue project folder later
+      "breakOnLoad": true,
+      "sourceMaps": true,
+      "smartStep": true
+    }
+  ]
+}

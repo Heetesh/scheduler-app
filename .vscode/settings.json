@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/node_modules": true
+  },
+  "python.pythonPath": "${workspaceFolder}/backend/.venv/bin/python",
+  "eslint.validate": ["javascript", "vue"],
+  "eslint.packageManager": "yarn",
+  "eslint.alwaysShowStatus": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/.venv/**": true
+  },
+  "python-envs.pythonProjects": []
+}
